@@ -6,7 +6,7 @@ public class CompositeMenuDemo {
 	public static void main(String[] args) {
 
 		/*
-			TODO: Excercise 3
+			TODO: Excercise Three
 			Create a common interface between Menu & MenuItem which declares a way to
 			print the entire menu-tree
 		 */
