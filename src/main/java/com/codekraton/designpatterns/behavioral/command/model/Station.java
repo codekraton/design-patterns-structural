@@ -4,7 +4,7 @@ public class Station implements Device {
 
     @Override
     public void turnOn() {
-        System.out.println("Charger is turned on");
+        System.out.println("Station is turned on");
     }
 
     @Override

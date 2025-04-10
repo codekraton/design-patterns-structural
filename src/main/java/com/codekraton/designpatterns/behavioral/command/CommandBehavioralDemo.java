@@ -13,11 +13,13 @@ public class CommandBehavioralDemo {
 
         var startChargingCommand = new StartChargingCommand(charger);
         var setAvailableCommand = new SetAvailableCommand(station);
-        var turnOnCommand = new TurnOnSystemCommand(station);
+        var turnOnStationCommand = new TurnOnSystemCommand(station);
+        var turnOnChargerCommand = new TurnOnSystemCommand(charger);
         var turnOffCommand = new TurnOffSystemCommand(station);
 
         setAndExecute(admin, setAvailableCommand);
-        setAndExecute(admin, turnOnCommand);
+        setAndExecute(admin, turnOnStationCommand);
+        setAndExecute(admin, turnOnChargerCommand);
         setAndExecute(admin, startChargingCommand);
         setAndExecute(admin, turnOffCommand);
     }
